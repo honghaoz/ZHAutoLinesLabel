@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoMultipleLineLabel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JRa-th-TA4">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zQk-oD-9nH"/>
+                                    <barButtonItem title="Change LabelWidth" id="9rD-Yf-7BI">
+                                        <connections>
+                                            <action selector="changeWidth:" destination="BYZ-38-t0r" id="DvS-C4-cAU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qb0-Xf-7nZ"/>
+                                    <barButtonItem title="Change ContentInset" id="8r6-bR-pUp">
+                                        <connections>
+                                            <action selector="changeContentInset:" destination="BYZ-38-t0r" id="RhU-wp-j4x"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qY2-nq-dCt"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="A very very very long storyA very very very long storyA very very very long story" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="5lb-cv-7q0" customClass="ZHAutoLinesLabel" customModule="AutoMultipleLineLabel" customModuleProvider="target">
+                                <rect key="frame" x="85" y="233" width="150" height="102"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="q0T-4m-eBo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="5lb-cv-7q0" secondAttribute="centerX" id="FAP-es-dsI"/>
+                            <constraint firstAttribute="trailing" secondItem="JRa-th-TA4" secondAttribute="trailing" id="HBM-A5-2SU"/>
+                            <constraint firstAttribute="centerY" secondItem="5lb-cv-7q0" secondAttribute="centerY" id="V4D-Be-xrM"/>
+                            <constraint firstAttribute="bottom" secondItem="JRa-th-TA4" secondAttribute="bottom" id="fKp-cV-cvb"/>
+                            <constraint firstItem="JRa-th-TA4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hbQ-CE-JCY"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="constraintLabelWidth" destination="q0T-4m-eBo" id="tbW-ez-k3a"/>
+                        <outlet property="label" destination="5lb-cv-7q0" id="GdX-Vq-RHc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

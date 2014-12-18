@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD521D81A4344020068356B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD521D71A4344020068356B /* AppDelegate.swift */; };
+		FAD521DA1A4344020068356B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD521D91A4344020068356B /* ViewController.swift */; };
+		FAD521DD1A4344020068356B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD521DB1A4344020068356B /* Main.storyboard */; };
+		FAD521DF1A4344020068356B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD521DE1A4344020068356B /* Images.xcassets */; };
+		FAD521E21A4344020068356B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD521E01A4344020068356B /* LaunchScreen.xib */; };
+		FAD521EE1A4344020068356B /* AutoMultipleLineLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD521ED1A4344020068356B /* AutoMultipleLineLabelTests.swift */; };
+		FAD521F81A4344A10068356B /* ZHAutoLinesLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD521F71A4344A10068356B /* ZHAutoLinesLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD521E81A4344020068356B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD521CA1A4344020068356B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD521D11A4344020068356B;
+			remoteInfo = AutoMultipleLineLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD521D21A4344020068356B /* AutoMultipleLineLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMultipleLineLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD521D61A4344020068356B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD521D71A4344020068356B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD521D91A4344020068356B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD521DC1A4344020068356B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD521DE1A4344020068356B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAD521E11A4344020068356B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAD521E71A4344020068356B /* AutoMultipleLineLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoMultipleLineLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD521EC1A4344020068356B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD521ED1A4344020068356B /* AutoMultipleLineLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMultipleLineLabelTests.swift; sourceTree = "<group>"; };
+		FAD521F71A4344A10068356B /* ZHAutoLinesLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHAutoLinesLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD521CF1A4344020068356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD521E41A4344020068356B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD521C91A4344020068356B = {
+			isa = PBXGroup;
+			children = (
+				FAD521D41A4344020068356B /* AutoMultipleLineLabel */,
+				FAD521EA1A4344020068356B /* AutoMultipleLineLabelTests */,
+				FAD521D31A4344020068356B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD521D31A4344020068356B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD521D21A4344020068356B /* AutoMultipleLineLabel.app */,
+				FAD521E71A4344020068356B /* AutoMultipleLineLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD521D41A4344020068356B /* AutoMultipleLineLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FAD521D71A4344020068356B /* AppDelegate.swift */,
+				FAD521D91A4344020068356B /* ViewController.swift */,
+				FAD521DB1A4344020068356B /* Main.storyboard */,
+				FAD521F71A4344A10068356B /* ZHAutoLinesLabel.swift */,
+				FAD521DE1A4344020068356B /* Images.xcassets */,
+				FAD521E01A4344020068356B /* LaunchScreen.xib */,
+				FAD521D51A4344020068356B /* Supporting Files */,
+			);
+			path = AutoMultipleLineLabel;
+			sourceTree = "<group>";
+		};
+		FAD521D51A4344020068356B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD521D61A4344020068356B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD521EA1A4344020068356B /* AutoMultipleLineLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD521ED1A4344020068356B /* AutoMultipleLineLabelTests.swift */,
+				FAD521EB1A4344020068356B /* Supporting Files */,
+			);
+			path = AutoMultipleLineLabelTests;
+			sourceTree = "<group>";
+		};
+		FAD521EB1A4344020068356B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD521EC1A4344020068356B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD521D11A4344020068356B /* AutoMultipleLineLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD521F11A4344020068356B /* Build configuration list for PBXNativeTarget "AutoMultipleLineLabel" */;
+			buildPhases = (
+				FAD521CE1A4344020068356B /* Sources */,
+				FAD521CF1A4344020068356B /* Frameworks */,
+				FAD521D01A4344020068356B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoMultipleLineLabel;
+			productName = AutoMultipleLineLabel;
+			productReference = FAD521D21A4344020068356B /* AutoMultipleLineLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD521E61A4344020068356B /* AutoMultipleLineLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD521F41A4344020068356B /* Build configuration list for PBXNativeTarget "AutoMultipleLineLabelTests" */;
+			buildPhases = (
+				FAD521E31A4344020068356B /* Sources */,
+				FAD521E41A4344020068356B /* Frameworks */,
+				FAD521E51A4344020068356B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD521E91A4344020068356B /* PBXTargetDependency */,
+			);
+			name = AutoMultipleLineLabelTests;
+			productName = AutoMultipleLineLabelTests;
+			productReference = FAD521E71A4344020068356B /* AutoMultipleLineLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD521CA1A4344020068356B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = HonghaoZ;
+				TargetAttributes = {
+					FAD521D11A4344020068356B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FAD521E61A4344020068356B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FAD521D11A4344020068356B;
+					};
+				};
+			};
+			buildConfigurationList = FAD521CD1A4344020068356B /* Build configuration list for PBXProject "AutoMultipleLineLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD521C91A4344020068356B;
+			productRefGroup = FAD521D31A4344020068356B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD521D11A4344020068356B /* AutoMultipleLineLabel */,
+				FAD521E61A4344020068356B /* AutoMultipleLineLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD521D01A4344020068356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD521DD1A4344020068356B /* Main.storyboard in Resources */,
+				FAD521E21A4344020068356B /* LaunchScreen.xib in Resources */,
+				FAD521DF1A4344020068356B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD521E51A4344020068356B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD521CE1A4344020068356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD521DA1A4344020068356B /* ViewController.swift in Sources */,
+				FAD521D81A4344020068356B /* AppDelegate.swift in Sources */,
+				FAD521F81A4344A10068356B /* ZHAutoLinesLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD521E31A4344020068356B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD521EE1A4344020068356B /* AutoMultipleLineLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD521E91A4344020068356B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD521D11A4344020068356B /* AutoMultipleLineLabel */;
+			targetProxy = FAD521E81A4344020068356B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD521DB1A4344020068356B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD521DC1A4344020068356B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD521E01A4344020068356B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD521E11A4344020068356B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD521EF1A4344020068356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD521F01A4344020068356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD521F21A4344020068356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoMultipleLineLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAD521F31A4344020068356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoMultipleLineLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAD521F51A4344020068356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoMultipleLineLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoMultipleLineLabel.app/AutoMultipleLineLabel";
+			};
+			name = Debug;
+		};
+		FAD521F61A4344020068356B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoMultipleLineLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoMultipleLineLabel.app/AutoMultipleLineLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD521CD1A4344020068356B /* Build configuration list for PBXProject "AutoMultipleLineLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD521EF1A4344020068356B /* Debug */,
+				FAD521F01A4344020068356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD521F11A4344020068356B /* Build configuration list for PBXNativeTarget "AutoMultipleLineLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD521F21A4344020068356B /* Debug */,
+				FAD521F31A4344020068356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD521F41A4344020068356B /* Build configuration list for PBXNativeTarget "AutoMultipleLineLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD521F51A4344020068356B /* Debug */,
+				FAD521F61A4344020068356B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD521CA1A4344020068356B /* Project object */;
+}
