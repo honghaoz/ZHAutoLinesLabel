@@ -35,8 +35,8 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="qY2-nq-dCt"/>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="A very very very long storyA very very very long storyA very very very long story" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="5lb-cv-7q0" customClass="ZHAutoLinesLabel" customModule="AutoMultipleLineLabel" customModuleProvider="target">
-                                <rect key="frame" x="85" y="233" width="150" height="102"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="A very very very long storyA very very very long storyA very very very long story" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="100" translatesAutoresizingMaskIntoConstraints="NO" id="5lb-cv-7q0" customClass="ZHAutoLinesLabel" customModule="AutoMultipleLineLabel" customModuleProvider="target">
+                                <rect key="frame" x="85" y="203" width="150" height="163"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="q0T-4m-eBo"/>
