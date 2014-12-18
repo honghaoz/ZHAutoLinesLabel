@@ -2,6 +2,8 @@
 
 ZHAutoLinesLabel is a subclass of UILabel, support contentInset and automatic multiple lines
 
+![](https://raw.githubusercontent.com/honghaoz/ZHAutoLinesLabel/master/Pic/Pre1.png)
+
 # Why I create this label
 
 ### For automatic preferredMaxLayoutWidth
