@@ -19,6 +19,10 @@ class ZHAutoLinesLabel: UILabel {
         }
     }
     
+    convenience override init() {
+        self.init(frame: CGRectZero)
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
